@@ -1,43 +1,33 @@
 body{
     background: black;
     color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .box{
     --size: 200px;
-    background: red;
     width: var(--size);
     height:  var(--size);
-  /*  transition: all 1s ease 2s;*/
-}
-/*.box:hover{
-    background: lawngreen;
-    height: 300px;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease; 
-    transition-delay: 1s;
-}*/
-
-/*Atajo*/
-.box:hover{
-    background: lawngreen;
-    height: 300px;
-    transition: all 1s ;
-   /* transform: translate(200px, 0);*/
+    transition: all 1s ease;
 }
 
-/*Delay*/
-/*.box{
-    --box: 200px;
+.box1{
     background: blueviolet;
-    width: var(--size);
-    height: var(--size);
-    transition: all 2s ease 2s;
 }
+
+.box2{
+    background: orange;
+    margin-left: 50px;
+}
+
 .box:hover{
-    height: 400px;
-    background: indianred;
-    transform: translate(200px, 0);
-}*/
+    height: 300px;
+    width: 300px;
+}
+
+
+
 
