@@ -14,4 +14,5 @@ Este proyecto es una página web que muestra dos transiciones CSS en cajas (divs
 
 ## Cómo ver el proyecto
 
-1. Descarga o clona el repositorio utilizando el comando git:
+1. Descarga o clona el repositorio utilizando el comando git: 
+   git clone https://github.com/Irina-Ichim/Transiciones-Css.git
